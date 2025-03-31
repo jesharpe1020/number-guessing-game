@@ -22,7 +22,6 @@ function startGame() {
     console.log(num);
     console.log("i love amanda♥️");
     header2Block.innerHTML = "guess the number between " + lowBound + " and " + highBound.toLocaleString();
-    bestScoreBlock.innerHTML = "best score: --";
     guessBlock.value = "";
     guidanceBlock.innerHTML = "";
     guidanceBlock2.innerHTML = "";
